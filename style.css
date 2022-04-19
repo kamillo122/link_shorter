@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+}
+
+.container {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.container input{
+    width: 500px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.container button {
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+}
