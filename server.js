@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const { MongoClient, ObjectId } = require("mongodb");
 const uri =
-	"mongodb+srv://AdminKamilo:I1udrg12@cluster0.8from.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+	"mongodb+srv://@cluster0.8from.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const app = express();
 const PORT = process.env.PORT || 8080;
 
